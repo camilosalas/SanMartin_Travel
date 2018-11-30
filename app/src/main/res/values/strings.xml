@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">San Martin Travel</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Iniciar Sesion</string>
+    <string name="action_cerrar">Cerrar Sesion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_administrador">Administrador</string>
+    <string name="title_activity_mapa">Map</string>
+
+    <string name="mensaje">Marcador Colocado</string>
+
+    <string name="addNombreComida">Nombre de la comida</string>
+    <string name="addDescripComida">Descripción de la comida</string>
+    <string name="addComida">Agregar</string>
+
+
+    <string name="addNombreHotel">Nombre del Hotel</string>
+    <string name="addDescripHotel">Descripción del Hotel</string>
+    <string name="addUbicacionHotel">Ubicación del Hotel</string>
+    <string name="addPrecioHotel">Precio medio/noche</string>
+    <string name="addTelefHotel">Teléfono del Hotel</string>
+    <string name="addHotel">Agregar</string>
+
+
+    <string name="addNombreFruta">Nombre de la fruta</string>
+    <string name="addDescripFruta">Descripción de la fruta</string>
+    <string name="addFruta">Agregar</string>
+
+
+    <string name="addNombrePaisaje">Nombre del Paisaje</string>
+    <string name="addDescripPaisaje">Descripción del Paisaje</string>
+    <string name="addUbicaPaisaje">Ubicación del Paisaje</string>
+    <string name="addPaisaje">Agregar</string>
+
+
+    <string name="addNombre">Nombre del Centro Turistico</string>
+    <string name="addDescrip">Descripción del Centro Turístico</string>
+    <string name="addTelef">Telefono del Centro Turístico</string>
+    <string name="addCentro">Agregar</string>
+
+    <string name="telef">Teléfono: </string>
+    <string name="precio">Precio medio/noche: S/ </string>
+    <string name="direc">Dirección: </string>
+
+    <string name="content">Descripción de la Img</string>
+    <string name="title_activity_sitio">Sitio</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="dire">Dirección</string>
+    <string name="info">Información</string>
+
+    <string name="edit">Modificar</string>
+    <string name="delete">Eliminar</string>
+
+    <string name="texto_eliminar">¿Esta seguro que desea eliminar este sitio?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

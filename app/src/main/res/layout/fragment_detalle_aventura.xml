@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FragmentDetalleCliente.FragmentDetalleAventura">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorTransparent"
+        android:orientation="vertical">
+
+        <ScrollView
+            style="@style/AppTheme"
+            android:id="@+id/Registro"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imageAventd"
+                    android:contentDescription="@string/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/exper"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="50dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre: "
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/NombreAventd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre de la Aventura"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textStyle="italic"
+                    android:inputType="text" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Descripción: "
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/DescripcionAventd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:text="Descripción de la Aventura"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:inputType="textMultiLine"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

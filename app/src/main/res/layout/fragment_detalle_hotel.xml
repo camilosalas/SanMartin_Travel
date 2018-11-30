@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragments.FragmentDetalleCliente.FragmentDetalleHotel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorTransparent"
+        android:orientation="vertical">
+
+        <ScrollView
+            style="@style/AppTheme"
+            android:id="@+id/Registro"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imagePaisaje"
+                    android:contentDescription="@string/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/img_vacia"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="50dp" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/verMapaHot"
+                    app:fabSize="mini"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-47dp"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:rippleColor="@color/colorWhite"
+                    app:srcCompat="@drawable/destino"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre del Hotel: "
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/NombreHot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre del Hotel"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textStyle="italic"
+                    android:inputType="text" />
+
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ubicación del Hotel: "
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:inputType="text" />
+
+
+                <TextView
+                    android:id="@+id/UbicacionHot"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:gravity="center"
+                    android:text="Ubicación del Hotel"
+                    android:inputType="text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio medio/noche: "
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:inputType="text" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="74dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:inputType="text"
+                        android:padding="5dp"
+                        android:text="S/."
+                        android:textStyle="italic" />/>
+
+                    <TextView
+                        android:id="@+id/PrecioHot"
+                        android:layout_width="149dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:inputType="text"
+                        android:padding="5dp"
+                        android:text="Precio del Hotel"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imgllamadaHotel"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/circulo"
+                        android:src="@drawable/phone" />
+
+                    <TextView
+                        android:id="@+id/telefonoHot"
+                        android:layout_width="324dp"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="Telefono del Hotel"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Descripción del Hotel: "
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/DescripcionHot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:text="Descripción del Hotel"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:inputType="textMultiLine"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

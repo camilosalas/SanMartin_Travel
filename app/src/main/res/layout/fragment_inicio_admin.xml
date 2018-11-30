@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Fragment_Administrador.InicioAdminFragment">
+
+    <TextView
+        android:id="@+id/txtGaleria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/Experiencia"
+        android:layout_marginEnd="62dp"
+        android:layout_marginTop="-98dp"
+        android:text="Paisajes"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="62dp" />
+
+    <TextView
+        android:id="@+id/txtExperiencias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Experiencia"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="-98dp"
+        android:text="Experiencias"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="38dp" />
+
+    <TextView
+        android:id="@+id/txtGastronomia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Gastronomia"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Gastronomía"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtDestinos"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Destinos"
+        android:layout_alignEnd="@+id/Experiencia"
+        android:layout_alignRight="@+id/Experiencia"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="-40dp"
+        android:layout_marginRight="-40dp"
+        android:text="Atracciones Turísticas"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtHoteles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtGaleria"
+        android:layout_alignRight="@+id/Experiencia"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="103dp"
+        android:layout_marginRight="-99dp"
+        android:layout_marginBottom="210dp"
+        android:text="Hoteles"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <ImageButton
+        android:id="@+id/Experiencia"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Destinos"
+        android:layout_marginBottom="98dp"
+        android:background="@drawable/circulo"
+        android:src="@android:drawable/star_big_on"
+        android:layout_alignLeft="@+id/Destinos" />
+
+    <ImageButton
+        android:id="@+id/Galeria"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/Gastronomia"
+        android:layout_alignTop="@+id/Experiencia"
+        android:background="@drawable/circulo"
+        android:src="@android:drawable/star_big_on"
+        android:layout_alignLeft="@+id/Gastronomia" />
+
+    <ImageButton
+        android:id="@+id/Destinos"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/circulo"
+        android:src="@drawable/destino"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp" />
+
+    <ImageButton
+        android:id="@+id/Gastronomia"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Destinos"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/circulo"
+        android:src="@drawable/gastrono"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="51dp" />
+
+    <ImageButton
+        android:id="@+id/Hoteles"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/txtGaleria"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="161dp"
+        android:layout_marginRight="161dp"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/circulo"
+        android:src="@android:drawable/star_big_on" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "423049274462",
+    "firebase_url": "https://san-martin-travel.firebaseio.com",
+    "project_id": "san-martin-travel",
+    "storage_bucket": "san-martin-travel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423049274462:android:fd651682c98703fe",
+        "android_client_info": {
+          "package_name": "com.camilo.sanmartin_travel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423049274462-blk3lbn0gd1visnjs6nj8bsuiinc1v1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.camilo.sanmartin_travel",
+            "certificate_hash": "f1c0509c3909194ae695bdbd8023c69142958aeb"
+          }
+        },
+        {
+          "client_id": "423049274462-nfvtv32kfm94gvrifm3jkijokbnkcf0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAANpe5TemB9VhlV0j1Uulw3h8xpBlA5nU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423049274462-nfvtv32kfm94gvrifm3jkijokbnkcf0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

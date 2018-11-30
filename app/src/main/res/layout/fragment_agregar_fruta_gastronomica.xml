@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPlomo"
+    tools:context=".Fragments.Fragment_Administrador.FragmentAgregarFrutaGastronomica">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorTransparent"
+        android:orientation="vertical">
+
+        <ScrollView
+            style="@style/AppTheme"
+            android:id="@+id/RegistroGastronomico"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/imgfruta"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:contentDescription="@string/addDescrip"
+                    android:visibility="invisible"/>
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/addImgfruta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-47dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginLeft="6dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:fabSize="mini"
+                    android:src="@drawable/add_img"
+                    app:backgroundTint="@color/colorPrimary"
+                    app:rippleColor="@color/colorWhite" />
+
+                <com.github.florent37.materialtextfield.MaterialTextField
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    app:mtf_labelColor="#666"
+                    app:mtf_image="@drawable/ic_create_black_24dp">
+
+                    <EditText
+                        android:id="@+id/NombreFruta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/addNombreFruta"
+                        android:textColor="#FF4081"
+                        android:textSize="15sp"
+                        android:inputType="text"/>
+
+                </com.github.florent37.materialtextfield.MaterialTextField>
+
+                <com.github.florent37.materialtextfield.MaterialTextField
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:mtf_labelColor="#666"
+                    app:mtf_image="@drawable/ic_create_black_24dp">
+
+                    <EditText
+                        android:id="@+id/DescripcionFruta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/addDescripFruta"
+                        android:textColor="#FF4081"
+                        android:textSize="15sp"
+                        android:inputType="textMultiLine"/>
+
+                </com.github.florent37.materialtextfield.MaterialTextField>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="0dp"
+            android:id="@+id/AgregaFruta"
+            card_view:cardBackgroundColor="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold|italic"
+                android:text="@string/addComida"
+                android:typeface="serif"
+                android:textSize="22sp"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"/>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</FrameLayout>

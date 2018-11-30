@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.FragmentDetalleCliente.FragmentDetalleSitioCliente">
+
+    <ImageView
+        android:contentDescription="@string/content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imgdetallesit"
+        android:src="@drawable/img_vacia"
+        android:layout_margin="20dp"
+        android:layout_marginTop="50dp"/>
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pagerdetallesitio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

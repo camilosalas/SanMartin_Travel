@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Fragment_Cliente.FragmentExperiencias">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cultura"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="3dp"
+        android:text="San Martin Cultura viva"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Milenario"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="43dp"
+        android:text="San Martin Milenario"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Aventura"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="3dp"
+        android:text="San Martin Aventura"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Natural"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="43dp"
+        android:text="San Martin Natural"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <ImageButton
+        android:id="@+id/Cultura"
+        android:layout_width="84dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/circulo"
+        android:src="@android:drawable/star_big_on"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="2dp" />
+
+    <ImageButton
+        android:id="@+id/Milenario"
+        android:layout_width="84dp"
+        android:layout_height="83dp"
+        android:layout_alignTop="@+id/Cultura"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:background="@drawable/circulo"
+        android:src="@android:drawable/star_big_on" />
+
+    <ImageButton
+        android:id="@+id/Aventura"
+        android:layout_width="84dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="325dp"
+        android:background="@drawable/circulo"
+        android:src="@android:drawable/star_big_on" />
+
+    <ImageButton
+        android:id="@+id/Natural"
+        android:layout_width="84dp"
+        android:layout_height="83dp"
+        android:layout_alignTop="@+id/Aventura"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:background="@drawable/circulo"
+        android:src="@android:drawable/star_big_on" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_dehaze_black_24dp"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_Destinos"
+            android:icon="@drawable/ic_pin_drop_black_24dp"
+            android:title="Destinos" />
+        <item
+            android:id="@+id/nav_Gastronomia"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:title="Gastronomía" />
+        <item
+            android:id="@+id/nav_Experiencias"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="Experiencias" />
+        <item
+            android:id="@+id/nav_Galeria"
+            android:icon="@drawable/ic_photo_camera_black_24dp"
+            android:title="Galería" />
+        <item
+            android:id="@+id/nav_Utilidades"
+            android:icon="@drawable/ic_build_black_24dp"
+            android:title="Utilidades" />
+    </group>
+</menu>
